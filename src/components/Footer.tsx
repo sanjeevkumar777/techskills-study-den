@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold gradient-text">B.Tech Study Hub</h3>
+            <h3 className="text-xl font-bold gradient-text">TechSkills Study Den</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Your comprehensive resource for B.Tech notes, previous papers, and study materials. 
               Created with passion to help students excel in their engineering journey.
@@ -83,7 +83,7 @@ const Footer = () => {
         {/* Bottom footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
-            © 2024 B.Tech Study Hub. All rights reserved.
+            © 2024 TechSkills Study Den. All rights reserved.
           </div>
           
           <div className="flex items-center gap-4 text-xs text-muted-foreground">

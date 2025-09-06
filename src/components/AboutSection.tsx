@@ -50,20 +50,28 @@ const AboutSection = () => {
                   <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-4">
                     <Badge variant="secondary" className="bg-primary/20 text-primary">
                       <GraduationCap className="w-3 h-3 mr-1" />
-                      B.Tech Student
+                      B.Tech CSE Student
                     </Badge>
                     <Badge variant="secondary" className="bg-primary/20 text-primary">
                       <BookOpen className="w-3 h-3 mr-1" />
-                      Content Creator
+                      Python Programmer
+                    </Badge>
+                    <Badge variant="secondary" className="bg-primary/20 text-primary">
+                      AI/ML & Web Dev Enthusiast
+                    </Badge>
+                    <Badge variant="secondary" className="bg-primary/20 text-primary">
+                      Tech Content Creator
                     </Badge>
                   </div>
                 </div>
 
                 {/* Description */}
                 <p className="text-muted-foreground leading-relaxed text-center lg:text-left">
-                  Passionate B.Tech student and educational content creator dedicated to helping fellow students 
-                  succeed in their academic journey. I create comprehensive study materials, tutorials, and 
-                  resources to make engineering education more accessible and engaging.
+                  I'm Sanjeev Kumar Ayinala, a B.Tech CSE student, Python programmer, and content creator passionate about making technology simple and accessible.
+                  <br /><br />
+                  I run Sanjeev_TechSkills (YouTube) where I share Python tutorials, tech guides, and student motivation in Telugu + English. My focus areas include Python, AI/ML, Data Science, and Full-Stack Web Development.
+                  <br /><br />
+                  I strongly believe skills matter more than marks and aim to build a career at the intersection of technology, education, and innovation.
                 </p>
 
                 {/* Social links */}

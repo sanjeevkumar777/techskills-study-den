@@ -22,9 +22,9 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">B.Tech</span>
+            <span className="gradient-text">TechSkills</span>
             <br />
-            Study Hub
+            Study Den
           </h1>
           
           {/* Subheading */}
