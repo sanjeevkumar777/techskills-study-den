@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import { ArrowDown, BookOpen, Download } from "lucide-react";
 
 const Hero = () => {
+  const navigate = useNavigate();
+  
   const scrollToContent = () => {
     document.getElementById('branches')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -50,16 +53,27 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* CTA Button */}
+          {/* CTA Buttons */}
           <div className="space-y-6">
-            <Button 
-              onClick={scrollToContent}
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl neon-glow transition-all duration-300 hover:scale-105"
-            >
-              Explore Study Materials
-              <ArrowDown className="ml-2 w-5 h-5" />
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                onClick={scrollToContent}
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl neon-glow transition-all duration-300 hover:scale-105"
+              >
+                Explore Study Materials
+                <ArrowDown className="ml-2 w-5 h-5" />
+              </Button>
+              
+              <Button 
+                onClick={() => navigate('/submit')}
+                variant="outline"
+                size="lg" 
+                className="px-8 py-6 text-lg font-semibold rounded-xl border-primary/30 hover:bg-primary/10 transition-all duration-300"
+              >
+                Submit Materials
+              </Button>
+            </div>
             
             <p className="text-sm text-muted-foreground">
               Join thousands of B.Tech students in their academic journey
