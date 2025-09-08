@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ArrowDown, BookOpen, Download } from "lucide-react";
 
 const Hero = () => {
+  console.log("Hero component rendering");
   const navigate = useNavigate();
   
   const scrollToContent = () => {
